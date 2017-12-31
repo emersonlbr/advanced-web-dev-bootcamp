@@ -1,0 +1,38 @@
+* {
+  background: #222;
+  color: white;
+}
+
+h1 {
+ text-align: center;
+ font-weight: 300;
+ font-family: sans-serif; 
+}
+
+.btn {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  display: block;
+  position: relative;
+  background: #328550;
+  font-size: 16px;
+  font-weight: 300px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 25px 80px;
+  margin: 0 auto;
+  border-radius: 20px;
+  box-shadow: 0 6px #215e30;
+}
+
+.btn:hover {
+  box-shadow: 0 4px #215e30;
+  top: 2px;
+}
+
+.btn:active {
+  /*box-shadow: 0 0 #215e30;*/
+  box-shadow: none;
+  top: 4px;
+}
