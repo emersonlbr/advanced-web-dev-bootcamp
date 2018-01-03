@@ -11,8 +11,14 @@ p {
 
 .move {
   background-color: rgb(81, 81, 163);
-  transform: rotate(40deg);
+  /*transform: rotate(40deg);*/
   transform-origin: left bottom;
+  transition-duration: .5s;
 }
 
-/*always check the docs for more info*/
+.move:hover {
+  transform: rotate(360deg);
+}
+
+/*always check the docs for more info
+  you should use a css prefixer for compatibility*/
