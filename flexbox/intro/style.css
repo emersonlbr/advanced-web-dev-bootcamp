@@ -1,0 +1,78 @@
+/* 
+  Container Properties
+    flex-direction
+    justify-content
+
+    flex-wrap
+    align-items
+    align-content
+
+
+  Flex Item Properties
+    order
+    flex
+    flex-shrink
+    align-self
+*/
+
+/* flex wrap */
+
+.container {
+  display: flex;
+  border: 4px solid black;
+  /* flex-direction: row-reverse; */
+  /* flex-wrap: wrap; applies the actual size */
+  justify-content: space-between; /**/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.box {
+  /* width: 200px; */
+  /* height: 100px; */
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  padding: 10px;
+}
+
+.box-1 {
+  background-color: blue;
+}
+
+.box-2 {
+  background-color: red;
+}
+
+.box-3 {
+  background-color: yellowgreen;
+}
+
+.box-4 {
+  background-color: aqua;
+}
+
+.box-5 {
+  background-color: violet;
+}
+
+.box-6 {
+  background-color: cyan;
+}
+
