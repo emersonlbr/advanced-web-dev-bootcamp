@@ -25,3 +25,5 @@ double1(arr);
 arr.forEach(element => {
   console.log(element * 2);
 });
+
+// make your life easier
