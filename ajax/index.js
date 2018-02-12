@@ -14,3 +14,9 @@ console.log('hello world');
 function dq(selector){return document.querySelector(selector);}
 let h1 = dq('h1');
 dq('h1').onclick = () => {console.log('yey');};
+
+// work like hell, do everything you can to accomplish the goal
+// I want to make the world a better place
+// I want to matter
+
+// don't get afraid of new arenas 
