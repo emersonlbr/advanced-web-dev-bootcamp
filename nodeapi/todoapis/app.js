@@ -8,10 +8,13 @@ const todoRoutes = require('./routes/todos');
 // body parser conf
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
+app.use(express.static(__dirname + '/views'));
+app.use(express.static(__dirname + '/public'));
 
 // Default route
 app.get('/', (req, res) => {
-  res.send('hello from index');
+  // serving a static file
+  res.sendFile('index.html');
 });
 
 // Using /api/todos on every route in todoRoutes
