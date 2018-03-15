@@ -1,0 +1,13 @@
+
+.card {
+  background-color: blueviolet;
+  width: 300px;
+  margin: auto;
+  padding-top: 1rem;
+}
+
+.title {
+  color: white;
+  font-family: sans-serif;
+  font-weight: 100;
+}
