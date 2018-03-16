@@ -1,0 +1,30 @@
+.Navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  font-family: sans-serif;
+}
+
+.Navbar h1 {
+  margin: 5px 0 0 1%;
+  padding: 0;
+  justify-self: center;
+  font-weight: 100;
+}
+
+.NavRight {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap-reverse;
+  padding: 0;
+}
+
+li {
+  margin-left: 2rem;
+  font-weight: 100;
+}
+
+ul {
+  margin-right: 1%;
+}

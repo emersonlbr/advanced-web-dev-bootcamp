@@ -1,0 +1,5 @@
+{
+  "emmet.syntaxProfiles": { "javascript": "jsx" },
+  "emmet.useNewEmmet": true,
+  "emmet.showExpandedAbbreviation": "always"
+}
