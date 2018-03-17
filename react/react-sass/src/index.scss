@@ -1,0 +1,18 @@
+$main-font: 'Dosis', sans-serif;
+$max-width: 900px;
+$padding-margins: 1.2rem;
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: $main-font;
+  font-size: 62.5%;
+}
+
+
+
+@import "Components/Navbar/Navbar";
+@import "App";
+@import url("https://fonts.googleapis.com/css?family=Dosis:200,300");
+@import url("http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css");
+
