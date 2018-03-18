@@ -1,0 +1,44 @@
+.ContentBox {
+  max-width: $max-width;
+  border: 1px solid black;
+  margin: auto;
+  margin-bottom: 2rem;  
+}
+
+.Posts {
+  max-width: 850px;
+  margin: auto;
+  // background-color: red;
+
+  .Title {
+    color: white;
+    font-size: 1.4rem;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: rgb(116, 212, 116);
+  }
+
+  .Content {
+    // background-color: darkorchid;
+    font-size: 1.3rem;
+    text-align: justify;
+  }
+
+  button {
+    background-color: rgb(114, 175, 231);
+    padding: .4rem;
+    outline: none;
+    border: none;
+    a {
+      color: #fff;
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+  }
+
+  .Date {
+    // color: red;
+    font-size: 1.2rem;
+  }
+
+}
