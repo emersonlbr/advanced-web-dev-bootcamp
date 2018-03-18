@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Navbar from './Components/Navbar/Navbar.jsx';
+import ContentBox from './Components/ContentBox/ContentBox.jsx';
 
 
 class App extends Component {
@@ -8,6 +9,8 @@ class App extends Component {
       <div className="App">
 
         <Navbar />
+        <ContentBox />
+
 
       </div>
     );

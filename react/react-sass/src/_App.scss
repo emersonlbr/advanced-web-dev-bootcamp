@@ -1,4 +1,2 @@
-.App {
-  max-width: $max-width;
-  margin: auto;
-}
+@import "Components/Navbar/Navbar";
+@import "Components/ContentBox/ContentBox";

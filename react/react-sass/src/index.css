@@ -7,11 +7,14 @@ body {
   font-size: 62.5%; }
 
 .MainNav {
-  color: #fff;
-  background-color: black;
-  padding: 0 1.2rem;
-  display: flex;
-  justify-content: space-between; }
+  background-color: black; }
+  .MainNav .SubMain {
+    color: #fff;
+    padding: 0 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    max-width: 900px;
+    margin: auto; }
   .MainNav a {
     color: white;
     text-decoration: none;
@@ -35,7 +38,3 @@ body {
       color: #000; }
       .SubNav .social a:hover {
         color: dodgerblue; }
-
-.App {
-  max-width: 900px;
-  margin: auto; }
