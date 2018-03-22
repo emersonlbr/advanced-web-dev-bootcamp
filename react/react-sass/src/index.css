@@ -43,7 +43,8 @@ body {
   max-width: 900px;
   border: 1px solid black;
   margin: auto;
-  margin-bottom: 2rem; }
+  margin-bottom: 2rem;
+  border-radius: 8px; }
 
 .Posts {
   max-width: 850px;
@@ -53,12 +54,14 @@ body {
     font-size: 1.4rem;
     text-align: center;
     text-transform: uppercase;
-    background-color: #74d474; }
+    background-color: #74d474;
+    border-radius: 8px; }
   .Posts .Content {
     font-size: 1.3rem;
     text-align: justify; }
   .Posts button {
     background-color: #72afe7;
+    border-radius: 8px;
     padding: .4rem;
     outline: none;
     border: none; }
