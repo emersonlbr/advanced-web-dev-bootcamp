@@ -26,11 +26,12 @@ exports.createTodo = (req, res) => {
 
 // show id route
 exports.getTodo = (req, res) => {
+  console.log(req.params);
   db.Todo.findById(req.params.todoId)
   .then((foundTodo) => {
     res.json(foundTodo);
   })
-  .then((err) => {
+  .catch((err) => {
     res.send(err);
   });
 };
